@@ -1,0 +1,6 @@
+El node mon me permite que se actualize automaticamente cuando se cambie de servidor.
+
+Get: Enlistar o mostrar las tareas.
+Post: Enviar o crear nueva tareas
+Put: Actualizar tareas.
+Delete: Eliminar tareas.

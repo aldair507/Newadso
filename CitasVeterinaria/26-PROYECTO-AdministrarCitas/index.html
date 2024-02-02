@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Administrador de la motocicleta</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h2 class="text-center my-5 titulo">Registrar moto</h2>
+    <div class="container mt-5 p-5">
+        <div id="contenido" class="row">
+            <div class="col-md-6 agregar-cita">
+                <form id="nueva-moto">
+                    <legend class="mb-4">Datos delvehiculo</legend>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-4 col-form-label">Fotografia: </label>
+                        <div class="col-sm-8 col-lg-8">
+                            <input type="file" id="Fotografia" name="foto" class="form-control imagen" placeholder="Nombre Mascota">
+                            
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-4 col-form-label">Nombre </label>
+                        <div class="col-sm-8 col-lg-8">
+                            <input type="text" id="Nombre" name="nombre" class="form-control" placeholder="Nombre de vehiculo">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-4 col-form-label">Marca</label>
+                        <div class="col-sm-8 col-lg-8">
+                            <input type="text" id="Marca" name="marca" class="form-control"  placeholder="Marca de vehiculo">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-4 col-form-label">Cilindraje:</label>
+                        <div class="col-sm-8 col-lg-8">
+                            <input type="number" id="Cilindraje" name="cilindraje" class="form-control"  placeholder="Cilindraje ">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-4 col-form-label">Placa:</label>
+                        <div class="col-sm-8 col-lg-8">
+                            <input type="text" id="placa" name="placa" class="form-control">
+                        </div>
+                    </div>
+                    
+
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-4 col-form-label">Soat:</label>
+                        <div class="col-sm-8 col-lg-8">
+                            <input type="date" id="Soat" name="soat" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-4 col-form-label">Consumo combustible:</label>
+                        <div class="col-sm-8 col-lg-8">
+                            <input type="number" id="Ccombustible" name="combustible" class="form-control">
+                        </div>
+                    </div>
+
+                   
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-lg-4 col-form-label">Descripcion:</label>
+                        <div class="col-sm-8 col-lg-8">
+                            <textarea id="Descripcion" name="descripcion" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                            <button type="submit" id="enviar" class="btn btn-success w-100 d-block">enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h2 id="administra" class="mb-4">Administra los datos de tu vehiculo</h2>
+                <ul id="motos" class="list-group lista-citas"></ul>
+            </div>
+        </div> <!--.row-->
+    </div><!--.container-->
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>

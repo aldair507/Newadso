@@ -1,0 +1,4 @@
+{
+    "presets": ["@babel/preset-env", "@babel/preset-react"]
+}
+//El babel me permite traducir toda la sintaxys moderna de javaScript y toda la sintaxys de react
