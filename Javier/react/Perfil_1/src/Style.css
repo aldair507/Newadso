@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(167, 167, 186);
+}
+
+
+    .card {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+      padding: 10px;
+      background-color: #fff;
+    
+     
+      text-align: center;
+    }
+    .card h2 {
+      font-size: 24px;
+      margin: 0;
+    }
+    .card p {
+      font-size: 16px;
+    }
+
+
+    .mostrar {
+      width: 500px;
+      background-color: #ccc;
+    }
